@@ -1,0 +1,92 @@
+tile.barrel.name=Barrel
+container.barrel=Barrel
+
+tile.campfire.name=Campfire
+tile.soul_campfire.name=soulCampfire
+
+tile.chain.name=chain
+tile.silverChain.name=silverChain
+tile.copperChain.name=copperChain
+tile.adamantiumChain.name=adamantiumChain
+tile.ancientChain.name=ancientChain
+tile.mithrilChain.name=mithrilChain
+
+item.birchdoor.name=birchDoor
+item.jungledoor.name=jungleDoor
+item.sprucedoor.name=spruceDoor
+item.sweetberries.name=sweetberries
+
+tile.sponge_wet.name=Wet Sponge
+
+tile.bigGrass.Grass.name=Tall Grass
+tile.bigGrass.Fern.name=Large Fern
+
+tile.lantern.name=lantern
+tile.soul_lantern.name=soulLantern
+tile.SilverLantern.name=silverLantern
+tile.CopperLantern.name=copperLantern
+tile.AdamantiumLantern.name=adamantiumLantern
+tile.AncientLantern.name=ancientLantern
+tile.MithrilLantern.name=mithrilLantern
+
+tile.soul_torch.name=soulTorch
+
+tile.stripped_spruce_log.name=strippedSpruceLog
+tile.stripped_oak_log.name=strippedOakLog
+tile.stripped_jungle_log.name=strippedJungleLog
+tile.stripped_birch_log.name=strippedBirchLog
+tile.stripped_birch_wood.name=strippedBirchWood
+tile.stripped_oak_wood.name=strippedOakWood
+tile.stripped_jungle_wood.name=strippedJungleWood
+tile.stripped_spruce_wood.name=strippedSpruceWood
+
+death.attack.sweetBerryBush=%1$s was poked to death by a sweet berry bush
+death.attack.sweetBerryBush.player=%1$s was poked to death by a sweet berry bush whilst trying to escape %2$s
+death.attack.CampFire=%1$s was burned to death by a campfire
+death.attack.CampFire.player=%1$s was burned to death by a campfire whilst trying to escape %2$s
+
+entity.EntityRabbit.name=rabbit
+item.rabbitCooked.name=rabbitCooked
+item.rabbitFoot.name=rabbitFoot
+item.rabbitHide.name=rabbitHide
+item.rabbitRaw.name=rabbitHide
+item.rabbit_stew.name=Rabbit Stew
+
+entity.EntityEndermite.name=Endermite
+entity.EntityArmourStand.name=ArmourStand
+
+item.wooden_armorstand.name=woodenArmorStand
+item.oak_boat.name=oakBoat
+item.spruce_boat.name=spruceBoat
+item.jungle_boat.name=jungleBoat
+item.birch_boat.name=birchBoat
+
+item.oak_chest_boat.name=oakChestBoat
+item.spruce_chest_boat.name=spruceChestBoat
+item.jungle_chest_boat.name=jungleChestBoat
+item.birch_chest_boat.name=birchChestBoat
+
+tile.slime.name=slimeBlock
+
+tile.birch_trapdoor.name=birchtrapDoor
+tile.jungle_trapdoor.name=jungletrapDoor
+tile.spruce_trapdoor.name=sprucetrapDoor
+
+tile.stonebrickWall.name=stoneBrickWall
+tile.brickWall.name=erickWall
+tile.end_stone_bricks.name=endStoneBrick
+tile.endStoneBrickWall.name=endStoneBrickWall
+
+tile.grindstone.name=grindStone
+tile.stonecutter.name=stoneCutter
+
+tile.dirtPath.name=dirtPath
+tile.sweetBerryBush.name=sweetBerryBush
+entity.EntityNewBoat.name=newBoat
+entity.EntityNewBoatWithChest.name=boatWithChest
+
+tile.prismarine_block.rough.name=Prismarine
+tile.prismarine_block.bricks.name=Prismarine Bricks
+tile.prismarine_block.dark.name=Dark Prismarine
+item.prismarineShard.name=Prismarine Shard
+item.prismarineCrystals.name=Prismarine Crystal

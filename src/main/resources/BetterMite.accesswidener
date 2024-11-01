@@ -1,0 +1,105 @@
+accessWidener v2 named
+accessible method net/minecraft/Block setHardness (F)Lnet/minecraft/Block;
+accessible method net/minecraft/Block setLightValue (F)Lnet/minecraft/Block;
+accessible method net/minecraft/Block setResistance (F)Lnet/minecraft/Block;
+accessible method net/minecraft/Block setTextureName (Ljava/lang/String;)Lnet/minecraft/Block;
+accessible method net/minecraft/Block setStepSound (Lnet/minecraft/StepSound;)Lnet/minecraft/Block;
+
+accessible method net/minecraft/Damage getResponsibleEntity ()Lnet/minecraft/Entity;
+accessible method net/minecraft/DamageSource setFireAspect (Z)Lnet/minecraft/DamageSource;
+accessible field net/minecraft/EntityDamageResult entity_was_destroyed Z
+
+accessible method net/minecraft/EntityLivingBase tryDamageArmor (Lnet/minecraft/DamageSource;FLnet/minecraft/EntityDamageResult;)V
+accessible field net/minecraft/Entity rand Ljava/util/Random;
+accessible field net/minecraft/EntitySkeleton frenzied_by_bone_lord_countdown I
+
+accessible field net/minecraft/ItemVessel vessel_material Lnet/minecraft/Material;
+accessible field net/minecraft/Material durability F
+accessible field net/minecraft/Material name Ljava/lang/String;
+accessible field net/minecraft/Material min_harvest_level I
+
+accessible method net/minecraft/EnumInsulinResistanceLevel getColor ()Lnet/minecraft/EnumChatFormatting;
+
+accessible method net/minecraft/CraftingManager addRecipe (Lnet/minecraft/ItemStack;Z[Ljava/lang/Object;)Lnet/minecraft/ShapedRecipes;
+accessible method net/minecraft/CraftingManager addShapelessRecipe (Lnet/minecraft/ItemStack;Z[Ljava/lang/Object;)Lnet/minecraft/ShapelessRecipes;
+accessible method net/minecraft/SlotCrafting getNumCraftingResults (Lnet/minecraft/EntityPlayer;)I
+
+accessible method net/minecraft/World chunkExistsAndIsNotEmptyFromBlockCoords (II)Z
+
+accessible method net/minecraft/ItemStack isItemStackEqual (Lnet/minecraft/ItemStack;ZZZZ)Z
+
+accessible method net/minecraft/BiomeGenBase setDisableRain ()Lnet/minecraft/BiomeGenBase;
+
+accessible field net/minecraft/BlockFurnace isActive Z
+
+accessible field net/minecraft/BiomeDecorator flowersPerChunk I
+accessible field net/minecraft/BiomeDecorator grassPerChunk I
+accessible field net/minecraft/BiomeDecorator treesPerChunk I
+
+accessible field net/minecraft/ContainerWorkbench x I
+accessible field net/minecraft/ContainerWorkbench y I
+accessible field net/minecraft/ContainerWorkbench z I
+
+accessible field net/minecraft/EntityFX prev_pos_initialized Z
+accessible field net/minecraft/EntityFX x [D
+accessible field net/minecraft/EntityFX y [D
+accessible field net/minecraft/EntityFX z [D
+accessible field net/minecraft/EntityFX u [D
+accessible field net/minecraft/EntityFX v [D
+
+accessible field net/minecraft/BlockLog subtypes Lnet/minecraft/BlockSubtypes;
+accessible field net/minecraft/BlockLog end_icons [Lnet/minecraft/Icon;
+accessible method net/minecraft/Potion setIconIndex (II)Lnet/minecraft/Potion;
+
+accessible method net/minecraft/GuiContainer drawCreativeTabHoveringText (Ljava/lang/String;II)V
+accessible method net/minecraft/TileEntity addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+accessible method net/minecraft/EnumDirection isUpOrDown ()Z
+accessible method net/minecraft/EnumDirection isEastOrWest ()Z
+accessible method net/minecraft/EnumDirection isNorthOrSouth ()Z
+
+extendable method net/minecraft/Block dropBlockAsItem_do (Lnet/minecraft/BlockBreakInfo;Lnet/minecraft/ItemStack;)Lnet/minecraft/EntityItem;
+extendable class net/minecraft/BlockDoor
+extendable class net/minecraft/BlockLog
+
+accessible class net/minecraft/ContainerRepairINNER2
+accessible class net/minecraft/ComponentNetherBridgePiece
+accessible class net/minecraft/GuiBeaconButtonPower
+
+accessible field net/minecraft/RenderBlocks uvRotateEast I
+accessible field net/minecraft/RenderBlocks uvRotateWest I
+accessible field net/minecraft/RenderBlocks uvRotateSouth I
+accessible field net/minecraft/RenderBlocks uvRotateNorth I
+accessible field net/minecraft/RenderBlocks uvRotateTop I
+accessible field net/minecraft/RenderBlocks uvRotateBottom I
+
+accessible method net/minecraft/Item setPotionEffect (Ljava/lang/String;)Lnet/minecraft/Item;
+accessible field net/minecraft/Minecraft renderEngine Lnet/minecraft/TextureManager;
+accessible method net/minecraft/BlockTrapDoor isOpen (I)Z
+accessible method net/minecraft/NBTTagCompound getTagMap (Lnet/minecraft/NBTTagCompound;)Ljava/util/Map;
+accessible field net/minecraft/NBTTagCompound tagMap Ljava/util/Map;
+accessible field net/minecraft/NBTTagList tagType B
+
+extendable class net/minecraft/NBTTagCompound
+accessible method net/minecraft/NBTTagCompound createCrashReport (Ljava/lang/String;ILjava/lang/ClassCastException;)Lnet/minecraft/CrashReport;
+extendable class net/minecraft/NBTTagList
+
+accessible field net/minecraft/Entity entityUniqueID Ljava/util/UUID;
+extendable method net/minecraft/Entity writeToNBTOptional (Lnet/minecraft/NBTTagCompound;)Z
+
+extendable method net/minecraft/Block isAlwaysOpaqueStandardFormCube ()Z
+extendable method net/minecraft/Block renderAsNormalBlock ()Z
+
+accessible field net/minecraft/RenderBlocks renderAllFaces Z
+accessible field net/minecraft/RenderBlocks flipTexture Z
+accessible field net/minecraft/RenderBlocks overrideBlockTexture Lnet/minecraft/Icon;
+
+accessible field net/minecraft/RenderBlocks renderMinX D
+accessible field net/minecraft/RenderBlocks renderMinY D
+accessible field net/minecraft/RenderBlocks renderMinZ D
+accessible field net/minecraft/RenderBlocks renderMaxX D
+accessible field net/minecraft/RenderBlocks renderMaxY D
+accessible field net/minecraft/RenderBlocks renderMaxZ D
+accessible field net/minecraft/RenderBlocks enableAO Z
+
+accessible method net/minecraft/Block setLightOpacity (I)Lnet/minecraft/Block;
+accessible method net/minecraft/BiomeGenBase setColor (I)Lnet/minecraft/BiomeGenBase;

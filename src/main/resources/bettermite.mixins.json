@@ -1,0 +1,43 @@
+{
+  "required": true,
+  "package": "com.github.FlyBird.BetterMite.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "target": "DEFAULT",
+  "minVersion": "0.8.3",
+  "mixins": [
+    "ComponentVillageHouse2LootTableMixin",
+    "SoundsMITEMixin",
+    "block.BlockMixin",
+    "block.BlockPumpkinMixin",
+    "block.BlockSpongeMixin",
+    "block.BlockTrapDoorMixin",
+    "block.BlockWallMixin",
+    "block.canBePlacedOnBlockMixin",
+    "entity.EntityCowMixin",
+    "entity.EntityEnderPearlMixin",
+    "entity.EntityMixin",
+    "entity.EntityTrackerEntryMixin",
+    "entity.EntityTrackerMixin",
+    "entity.SpawnerAnimalsMixin",
+    "entity.TileEntityFurnaceMixin",
+    "item.ItemAxeMixin",
+    "item.ItemFlintAndSteelMixin",
+    "item.ItemShovelMixin",
+    "network.ClientPlayerMixin",
+    "network.NetClientHandlerMixin",
+    "network.NetHandlerMixin",
+    "network.NetServerHandlerMixin",
+    "network.ServerPlayerMixin",
+    "render.RenderBlockMixin",
+    "render.RenderGlobalMixin",
+    "render.RenderItemFrameMixin",
+    "server.ChunkProviderServerMixin",
+    "world.biome.BiomeDecoratorMixin",
+    "world.biome.BiomeDesertMixin",
+    "world.biome.BiomeSnowMixin",
+    "world.structure.ComponentVillagePathGenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

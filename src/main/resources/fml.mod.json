@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "bettermite",
+	"version": "${version}",
+	"depends": {
+		"fishmodloader": ">=3.3.2",
+		"many-lib": ">=2.2.0"
+	},
+	"environment": "*",
+	"name": "BetterMite",
+	"description": "Better Than MITE, like Minecraft.",
+	"authors": ["FlyBird","mgdcm"],
+	"entrypoints": {
+		"preLaunch": [
+			"com.github.FlyBird.BetterMite.EarlyRiser"
+		],
+		"main": ["com.github.FlyBird.BetterMite.BetterMiteStart"]
+	},
+	"mixins": [
+		"bettermite.mixins.json"
+	],
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/EntityPlayer": [
+				"com/github/FlyBird/BetterMite/api/BetterMitePlayer"
+			],
+			"net/minecraft/Entity": [
+				"com/github/FlyBird/BetterMite/api/BetterMiteEntity"
+			],
+			"net/minecraft/ChunkProviderServer": [
+				"com/github/FlyBird/BetterMite/api/BetterMiteChunkProviderServer"
+			]
+		}
+	},
+	"accessWidener": "BetterMite.accesswidener"
+}
