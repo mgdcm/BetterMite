@@ -1,9 +1,11 @@
 package com.github.FlyBird.BetterMite.mixins.item;
 
+import com.github.FlyBird.BetterMite.block.BlockModLog;
 import com.github.FlyBird.BetterMite.block.Blocks;
 import net.minecraft.*;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Unique;
 
 
 @Mixin({ItemAxe.class})
@@ -14,6 +16,7 @@ public abstract class ItemAxeMixin extends ItemTool {
 
     @Shadow public abstract float getBaseDamageVsEntity();
 
+    @Unique
     private static boolean tryBecomeWood(World world, int x, int y, int z, EnumFace face, EntityPlayer player, ItemStack item_stack) {
         if (!player.canPlayerEdit(x, y, z, item_stack)) {
             return false;
@@ -22,7 +25,8 @@ public abstract class ItemAxeMixin extends ItemTool {
         int meta = block.getBlockSubtype(world.getBlockMetadata(x, y, z));
         int direction = world.getBlockMetadata(x, y, z);
         System.out.println("Direction:"+direction);
-        if (block != Block.wood ) {
+
+        if (block != Block.wood&&!(block instanceof BlockModLog)||meta>4) {
             return false;
         }
         if (player.onClient()) {
@@ -30,18 +34,24 @@ public abstract class ItemAxeMixin extends ItemTool {
             Minecraft.theMinecraft.playerController.setUseButtonDelayOverride(200);
         }
         else {
-            //0为 oak   1 spruce   2birch  3jungle
             world.playSoundAtBlock(x, y, z, Block.wood.stepSound.getStepSound(), (Block.wood.stepSound.getVolume() + 1.0f) / 2.0f, Block.wood.stepSound.getPitch() * 0.8f);
-            player.tryDamageHeldItem(DamageSource.generic, 10);
+            player.tryDamageHeldItem(DamageSource.generic, 16);
             player.addHungerServerSide(world.getBlockHardness(x, y, z) / 2.0f * EnchantmentHelper.getEnduranceModifier(player));
-            if (meta == 0)
-                world.setBlock(x, y, z, Blocks.strippedOak.blockID,direction,2);
-            if (meta == 1)
-                world.setBlock(x, y, z, Blocks.strippedSpruce.blockID,direction,2);
-            if (meta == 2)
-                world.setBlock(x, y, z, Blocks.strippedBirch.blockID,direction,2);
-            if (meta == 3)
-                world.setBlock(x, y, z, Blocks.strippedJungle.blockID,direction,2);
+            if(block == Block.wood){
+                if (meta == 0)
+                    world.setBlock(x, y, z, Blocks.oakLog.blockID,direction,2);
+                if (meta == 1)
+                    world.setBlock(x, y, z, Blocks.spruceLog.blockID,direction,2);
+                if (meta == 2)
+                    world.setBlock(x, y, z, Blocks.birchLog.blockID,direction,2);
+                if (meta == 3)
+                    world.setBlock(x, y, z, Blocks.jungleLog.blockID,direction,2);
+                world.setBlockMetadataWithNotify(x, y, z, 1, 2);
+            }
+            else if(block instanceof BlockModLog&&(meta&1)==0){
+                world.setBlockMetadataWithNotify(x, y, z, world.getBlockMetadata(x, y, z) + 1, 2);
+            }
+
         }
         return true;
     }

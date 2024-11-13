@@ -100,11 +100,11 @@ public class BlockBigGrass extends BlockPlant {
     }
 
     public boolean isValidMetadata(int metadata) {
-        return metadata >= 0 && metadata <= 3;
+        return metadata < 4;
     }
 
     public int getBlockSubtypeUnchecked(int metadata) {
-        return metadata&3;
+        return (metadata&2)+1;
     }
 
     public void registerIcons(IconRegister par1IconRegister) {

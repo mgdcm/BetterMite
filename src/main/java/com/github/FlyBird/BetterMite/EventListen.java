@@ -74,7 +74,7 @@ public class EventListen {
     public void onEntityRegister(EntityRegisterEvent event) {
         event.register(EntityRabbit.class, BetterMiteStart.MOD_ID, "EntityRabbit", getNextEntityID(),10051392,7555121);
         event.register(EntityEndermite.class, BetterMiteStart.MOD_ID, "EntityEndermite", getNextEntityID(),1447446,7237230);
-        event.register(EntityArmourStand.class, BetterMiteStart.MOD_ID,"EntityArmourStand", getNextEntityID());
+        event.register(EntityArmorStand.class, BetterMiteStart.MOD_ID,"EntityArmorStand", getNextEntityID());
 
         event.register(EntityNewBoat.class, BetterMiteStart.MOD_ID, "EntityNewBoat", getNextEntityID());
         event.register(EntityNewBoatSeat.class, BetterMiteStart.MOD_ID, "EntityNewBoatSeat", getNextEntityID());
@@ -85,7 +85,7 @@ public class EventListen {
     public void onEntityRendererRegistry(EntityRendererRegistryEvent event)
     {
         event.register(EntityRabbit.class,new RabbitRenderer());
-        event.register(EntityArmourStand.class,new ArmourStandRenderer());
+        event.register(EntityArmorStand.class,new ArmourStandRenderer());
         event.register(EntityEndermite.class,new EndermiteRenderer());
 
         event.register(EntityNewBoat.class,new NewBoatRenderer());

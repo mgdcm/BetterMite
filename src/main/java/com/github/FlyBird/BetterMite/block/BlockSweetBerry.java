@@ -116,7 +116,7 @@ public class BlockSweetBerry extends BlockGrowingPlant{
     }
 
     public float getGrowthRate(World world, int x, int y, int z) {
-        float growth_rate = 0.16f;
+        float growth_rate = 16f;
         BiomeGenBase biome = world.getBiomeGenForCoords(x, z);
         growth_rate *= this.getTemperatureGrowthRateModifier(biome.temperature);
         growth_rate *= this.getHumidityGrowthRateModifier(biome.isHighHumidity());
@@ -136,6 +136,11 @@ public class BlockSweetBerry extends BlockGrowingPlant{
         return metadata & 1 | MathHelper.clamp_int(growth, 0, BlockSweetBerry.getMaxBerryGrowth()) << 1;
     }
 
+    @Override
+    public boolean isValidMetadata(int metadata) {
+        return (metadata & 1) == 0;
+    }
+
     public static int incrementBerryStage(int metadata) {
         return BlockSweetBerry.setBerryStage(metadata, getBerryStage(metadata) + 1);
     }
@@ -144,7 +149,7 @@ public class BlockSweetBerry extends BlockGrowingPlant{
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, EnumFace face, float offset_x, float offset_y, float offset_z) {
         int metadata = world.getBlockMetadata(x, y, z);
         int stage= getBerryStage(metadata);  //0 1 2 3 4 5 6 7
-        if(stage==7&&player.getHeldItem().itemID==Item.dyePowder.itemID&&player.getHeldItemStack().getItemSubtype()==15){
+        if(stage==7&&player.getHeldItem()!=null&&player.getHeldItem().itemID==Item.dyePowder.itemID&&player.getHeldItemStack().getItemSubtype()==15){
             world.setBlockMetadataWithNotify(x, y, z, BlockSweetBerry.setBerryStage(metadata, 3), 2);
             if (player.onServer() && !player.inCreativeMode()) player.convertOneOfHeldItem(null);
             if (player.onServer())world.playAuxSFX(2005, x, y, z, 0);

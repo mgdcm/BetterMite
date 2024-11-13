@@ -1,7 +1,7 @@
 package com.github.FlyBird.BetterMite.mixins.network;
 
 import com.github.FlyBird.BetterMite.api.BetterMiteNetHandler;
-import com.github.FlyBird.BetterMite.entity.EntityArmourStand;
+import com.github.FlyBird.BetterMite.entity.EntityArmorStand;
 import com.github.FlyBird.BetterMite.network.ArmourStandInteractMessage;
 import com.github.FlyBird.BetterMite.network.BoatMoveMessage;
 import net.minecraft.*;
@@ -17,7 +17,7 @@ public abstract class NetServerHandlerMixin extends NetHandler implements Better
   
   public void handleArmourStandInteractInfo(ArmourStandInteractMessage packet) {
     World world = this.playerEntity.worldObj;
-    EntityArmourStand stand = (EntityArmourStand) world.getEntityByID(packet.standID);
+    EntityArmorStand stand = (EntityArmorStand) world.getEntityByID(packet.standID);
     stand.interact(playerEntity, packet.hitPos);
   }
 

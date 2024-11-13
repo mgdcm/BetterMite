@@ -11,15 +11,11 @@ public class RecipesFurnaceExtend extends Items {
     }
 
     public static void registerFurnaceRecipes() {
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedBirch.blockID, new ItemStack(Item.coal,1,1));
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedJungle.blockID, new ItemStack(Item.coal,1,1));
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedSpruce.blockID, new ItemStack(Item.coal,1,1));
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedOak.blockID, new ItemStack(Item.coal,1,1));
 
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedBirchWood.blockID, new ItemStack(Item.coal,1,1));
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedSpruceWood.blockID, new ItemStack(Item.coal,1,1));
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedJungleWood.blockID, new ItemStack(Item.coal,1,1));
-        FurnaceRecipes.smelting().addSmelting(Blocks.strippedOakWood.blockID, new ItemStack(Item.coal,1,1));
+        FurnaceRecipes.smelting().addSmelting(Blocks.birchLog.blockID, new ItemStack(Item.coal,1,1));
+        FurnaceRecipes.smelting().addSmelting(Blocks.spruceLog.blockID, new ItemStack(Item.coal,1,1));
+        FurnaceRecipes.smelting().addSmelting(Blocks.jungleLog.blockID, new ItemStack(Item.coal,1,1));
+        FurnaceRecipes.smelting().addSmelting(Blocks.oakLog.blockID, new ItemStack(Item.coal,1,1));
 
 
         FurnaceRecipes.smelting().addSmelting(Items.rabbitRaw.itemID, new ItemStack(Items.rabbitCooked,1));

@@ -4,7 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03a3a8ff-612e-4917-9434-16cde6f6e6c9" name="更改" comment="" />
+    <list default="true" id="03a3a8ff-612e-4917-9434-16cde6f6e6c9" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockModWoodPlanks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemModDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/log/acacia_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/log/acacia_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/log/stripped_acacia_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/log/stripped_acacia_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/planks/acacia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/planks/dark_oak.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/BetterMiteStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/BetterMiteStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/EventListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/EventListen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockBigGrass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockBigGrass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockDirtPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockDirtPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockNewDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockModDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockStrippedLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockStrippedWood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockSweetBerry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockSweetBerry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockTrapDoors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockModTrapDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/Blocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/Blocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/config/BetterMiteConfigs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/config/BetterMiteConfigs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/entity/EntityArmourStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/entity/EntityArmorStand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemArmourStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemArmorStand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemBigGrass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemBigGrass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemNewBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemNewBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/ItemNewDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/register/RecipesFurnaceExtend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/item/register/RecipesFurnaceExtend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/misc/EnumWoodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/misc/EnumWoodType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/entity/EntityTrackerEntryMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/entity/EntityTrackerEntryMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/entity/EntityTrackerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/entity/EntityTrackerMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/item/ItemAxeMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/item/ItemAxeMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/network/NetServerHandlerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/mixins/network/NetServerHandlerMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/model/ModelArmorStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/model/ModelArmorStand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/model/ModelArmorStandArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/model/ModelArmorStandArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/network/ArmourStandInteractMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/network/ArmourStandInteractMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/BetterMite.accesswidener" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BetterMite.accesswidener" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/lang/en_US.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/lang/zh_CN.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/lang/zh_CN.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/AdamantiumLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/AdamantiumLantern.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/AncientLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/AncientLantern.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/CopperLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/CopperLantern.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/MithrilLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/MithrilLantern.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/SilverLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/SilverLantern.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/adamantiumChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/ancientChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/birch_trapdoor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/copperChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/door/birch_door_lower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/door/birch_door_upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/door/jungle_door_lower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/door/jungle_door_upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/door/spruce_door_lower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/door/spruce_door_upper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/AdamantiumLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/AncientLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/CopperLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/MithrilLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/SilverLantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/adamantiumChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/ancientChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/chain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/copperChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/lantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/mithrilChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/item/silverChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/jungle_trapdoor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/lantern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/lantern.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/mithrilChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/silverChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/spruce_trapdoor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_birch_log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_birch_log_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_jungle_log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_jungle_log_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_oak_log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_oak_log_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_spruce_log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/blocks/stripped_spruce_log_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/items/doors/birch_door.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/items/doors/birch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/items/doors/jungle_door.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/items/doors/jungle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/items/doors/spruce_door.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/textures/items/doors/spruce.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bettermite.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bettermite.mixins.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +133,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-1088c3c5d1/1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2/minecraft-merged-1088c3c5d1-1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2.jar!/net/minecraft/Block.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-1088c3c5d1/1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2/minecraft-merged-1088c3c5d1-1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2.jar!/net/minecraft/BlockCake.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-1088c3c5d1/1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2/minecraft-merged-1088c3c5d1-1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2.jar!/net/minecraft/BlockLeaves.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-1088c3c5d1/1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2/minecraft-merged-1088c3c5d1-1.6.4-MITE-loom.mappings.1_6_4_MITE.layered+hash.991006303-v2.jar!/net/minecraft/BlockLeavesBase.class" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/github/FlyBird/BetterMite/block/BlockModLeaves.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -54,21 +154,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/BetterMite/run/mods",
-    "project.structure.last.edited": "模块",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "F:/BetterMite/src/main/resources/assets/minecraft/lang",
+    "project.structure.last.edited": "库",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36666667"
+    "project.structure.side.proportion": "0.36666667",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\BetterMite\src\main\resources\assets\minecraft\lang" />
       <recent name="F:\BetterMite\run\mods" />
-      <recent name="F:\BetterMite\libs" />
-      <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures\items\bowls" />
-      <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures\blocks" />
+      <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures\blocks\leaves" />
+      <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures\items\doors" />
+      <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures\blocks\door" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures\blocks\log" />
       <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures\blocks\tall_grass" />
       <recent name="F:\BetterMite\src\main\resources\assets\minecraft\textures" />
     </key>
@@ -122,7 +226,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BetterMite [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BetterMite [genSources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +237,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="jar" />
+            <option value="genSources" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,12 +270,35 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="BetterMite [validateAccessWidener]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="validateAccessWidener" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BetterMite [validateAccessWidener]" />
+        <item itemvalue="Gradle.BetterMite [genSources]" />
         <item itemvalue="Gradle.BetterMite [build]" />
         <item itemvalue="Gradle.BetterMite [clean]" />
         <item itemvalue="Gradle.BetterMite [runClient]" />
-        <item itemvalue="Gradle.BetterMite [jar]" />
       </list>
     </recent_temporary>
   </component>

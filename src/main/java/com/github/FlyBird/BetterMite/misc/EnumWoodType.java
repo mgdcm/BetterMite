@@ -4,5 +4,7 @@ public enum EnumWoodType {
     OAK,
     SPRUCE,
     BIRCH,
-    JUNGLE;
+    JUNGLE,
+    ACACIA,
+    DARK_OAK;
 }

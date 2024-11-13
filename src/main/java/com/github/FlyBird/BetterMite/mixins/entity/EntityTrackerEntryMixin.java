@@ -1,6 +1,6 @@
 package com.github.FlyBird.BetterMite.mixins.entity;
 
-import com.github.FlyBird.BetterMite.entity.EntityArmourStand;
+import com.github.FlyBird.BetterMite.entity.EntityArmorStand;
 import com.github.FlyBird.BetterMite.entity.EntityNewBoat;
 import com.github.FlyBird.BetterMite.entity.EntityNewBoatSeat;
 import com.github.FlyBird.BetterMite.entity.EntityNewBoatWithChest;
@@ -24,8 +24,8 @@ public abstract class EntityTrackerEntryMixin {
         }
 
         // 一堆if else
-        if (this.myEntity instanceof EntityArmourStand) {
-            Packet ret = new Packet24MobSpawn((EntityArmourStand) this.myEntity);
+        if (this.myEntity instanceof EntityArmorStand) {
+            Packet ret = new Packet24MobSpawn((EntityArmorStand) this.myEntity);
             cbi.setReturnValue(ret);
         }
         if(this.myEntity instanceof EntityNewBoat  )

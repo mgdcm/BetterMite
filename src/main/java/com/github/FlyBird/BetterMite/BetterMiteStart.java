@@ -1,7 +1,7 @@
 package com.github.FlyBird.BetterMite;
 
 import com.github.FlyBird.BetterMite.config.BetterMiteConfigs;
-import com.github.FlyBird.BetterMite.entity.EntityArmourStand;
+import com.github.FlyBird.BetterMite.entity.EntityArmorStand;
 import fi.dy.masa.malilib.config.ConfigManager;
 import net.fabricmc.api.ModInitializer;
 import net.xiaoyu233.fml.reload.event.MITEEvents;
@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class BetterMiteStart implements ModInitializer {
-    public static Set<EntityArmourStand> hashSetEntityArmourStand=new HashSet<EntityArmourStand>();
+    public static Set<EntityArmorStand> hashSetEntityArmorStand =new HashSet<EntityArmorStand>();
     public static final String MOD_ID="BetterMite";
 
     @Override

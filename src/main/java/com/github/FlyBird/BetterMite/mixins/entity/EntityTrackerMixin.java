@@ -1,6 +1,6 @@
 package com.github.FlyBird.BetterMite.mixins.entity;
 
-import com.github.FlyBird.BetterMite.entity.EntityArmourStand;
+import com.github.FlyBird.BetterMite.entity.EntityArmorStand;
 import com.github.FlyBird.BetterMite.entity.EntityNewBoat;
 import com.github.FlyBird.BetterMite.entity.EntityNewBoatSeat;
 import com.github.FlyBird.BetterMite.entity.EntityNewBoatWithChest;
@@ -19,7 +19,7 @@ public abstract class EntityTrackerMixin {
 
     @Inject(method = "addEntityToTracker(Lnet/minecraft/Entity;)V", at = @At("HEAD"), cancellable = true)
     public void addEntityToTracker_Inject(Entity par1Entity, CallbackInfo cbi) {
-        if (par1Entity instanceof EntityArmourStand) {
+        if (par1Entity instanceof EntityArmorStand) {
             this.addEntityToTracker(par1Entity, /*entityViewDistance*/ 64, /*updateFrequency*/ 5, true);
             cbi.cancel();
         }

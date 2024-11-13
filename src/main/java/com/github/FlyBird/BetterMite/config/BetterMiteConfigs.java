@@ -1,7 +1,7 @@
 package com.github.FlyBird.BetterMite.config;
 
 import com.github.FlyBird.BetterMite.api.BetterMiteChunkProviderServer;
-import com.github.FlyBird.BetterMite.entity.EntityArmourStand;
+import com.github.FlyBird.BetterMite.entity.EntityArmorStand;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import fi.dy.masa.malilib.config.ConfigTab;
@@ -20,7 +20,7 @@ import net.minecraft.WorldServer;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.github.FlyBird.BetterMite.BetterMiteStart.hashSetEntityArmourStand;
+import static com.github.FlyBird.BetterMite.BetterMiteStart.hashSetEntityArmorStand;
 
 
 public class BetterMiteConfigs extends SimpleConfigs {
@@ -33,10 +33,10 @@ public class BetterMiteConfigs extends SimpleConfigs {
         ArmourStandLoadChunk.setValueChangeCallback(new IValueChangeCallback<ConfigBoolean>() {
             @Override
             public void onValueChanged(ConfigBoolean configBoolean) {
-                if (hashSetEntityArmourStand != null){   //有盔甲架
+                if (hashSetEntityArmorStand != null){   //有盔甲架
                     if (ArmourStandLoadChunk.getBooleanValue())//开启盔甲架区块加载
                     {
-                        for (EntityArmourStand entity : hashSetEntityArmourStand) {
+                        for (EntityArmorStand entity : hashSetEntityArmorStand) {
                             WorldServer worldServer = entity.getWorldServer();
                             ChunkProviderServer theChunkProviderServer = worldServer.theChunkProviderServer;
                             BetterMiteChunkProviderServer chunkProviderServer1 = (BetterMiteChunkProviderServer) theChunkProviderServer;
@@ -47,7 +47,7 @@ public class BetterMiteConfigs extends SimpleConfigs {
                             theChunkProviderServer.loadChunk(chunk_x, chunk_z);
                         }
                     } else {
-                        for (EntityArmourStand entity : hashSetEntityArmourStand) {
+                        for (EntityArmorStand entity : hashSetEntityArmorStand) {
                             WorldServer worldServer = entity.getWorldServer();
                             ChunkProviderServer theChunkProviderServer = worldServer.theChunkProviderServer;
                             BetterMiteChunkProviderServer chunkProviderServer1 = (BetterMiteChunkProviderServer) theChunkProviderServer;

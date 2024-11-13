@@ -1,92 +1,180 @@
+#Language Generator
+
 tile.barrel.name=Barrel
 container.barrel=Barrel
 
+tile.sponge.name=Sponge
+tile.sponge_wet.name=Sponge Wet
+
 tile.campfire.name=Campfire
-tile.soul_campfire.name=soulCampfire
+tile.soul_campfire.name=Soul Campfire
 
-tile.chain.name=chain
-tile.silverChain.name=silverChain
-tile.copperChain.name=copperChain
-tile.adamantiumChain.name=adamantiumChain
-tile.ancientChain.name=ancientChain
-tile.mithrilChain.name=mithrilChain
+item.sweetberries.name=Sweet Berries
+tile.sweetBerryBush.name=Sweet Berries Bush
+death.sweetBerryBush=%1$s was poked to death by a sweet berry bush.
+death.sweetBerryBush.player=%1$s was poked to death by a sweet berry bush.
+death.CampFire=%1$s was burned to death by a campfire.
+death.CampFire.player=%1$s was burned to death by a campfire whilst trying to escape %2$s.
 
-item.birchdoor.name=birchDoor
-item.jungledoor.name=jungleDoor
-item.sprucedoor.name=spruceDoor
-item.sweetberries.name=sweetberries
+tile.soul_torch.name=Soul Torch
 
-tile.sponge_wet.name=Wet Sponge
+tile.tall_grass.name=Tall Grass
+tile.large_fern.name=Large Fern
 
-tile.bigGrass.Grass.name=Tall Grass
-tile.bigGrass.Fern.name=Large Fern
+tile.slime.name=Slime Block
+tile.dirtpath.name=Slime Block
+tile.grindstone.name=Grind Stone
+tile.stonecutter.name=Stonecutter
 
-tile.lantern.name=lantern
-tile.soul_lantern.name=soulLantern
-tile.SilverLantern.name=silverLantern
-tile.CopperLantern.name=copperLantern
-tile.AdamantiumLantern.name=adamantiumLantern
-tile.AncientLantern.name=ancientLantern
-tile.MithrilLantern.name=mithrilLantern
-
-tile.soul_torch.name=soulTorch
-
-tile.stripped_spruce_log.name=strippedSpruceLog
-tile.stripped_oak_log.name=strippedOakLog
-tile.stripped_jungle_log.name=strippedJungleLog
-tile.stripped_birch_log.name=strippedBirchLog
-tile.stripped_birch_wood.name=strippedBirchWood
-tile.stripped_oak_wood.name=strippedOakWood
-tile.stripped_jungle_wood.name=strippedJungleWood
-tile.stripped_spruce_wood.name=strippedSpruceWood
-
-death.attack.sweetBerryBush=%1$s was poked to death by a sweet berry bush
-death.attack.sweetBerryBush.player=%1$s was poked to death by a sweet berry bush whilst trying to escape %2$s
-death.attack.CampFire=%1$s was burned to death by a campfire
-death.attack.CampFire.player=%1$s was burned to death by a campfire whilst trying to escape %2$s
-
-entity.EntityRabbit.name=rabbit
-item.rabbitCooked.name=rabbitCooked
-item.rabbitFoot.name=rabbitFoot
-item.rabbitHide.name=rabbitHide
-item.rabbitRaw.name=rabbitHide
+item.rabbitRaw.name=Rabbit Raw
+item.rabbitCooked.name=Rabbit Cooked
+item.rabbitFoot.name=Rabbit Foot
+item.rabbitHide.name=Rabbit Hide
 item.rabbit_stew.name=Rabbit Stew
 
+entity.EntityRabbit.name=Rabbit
 entity.EntityEndermite.name=Endermite
-entity.EntityArmourStand.name=ArmourStand
+entity.EntityArmorStand.name=Armor Stand
+entity.EntityNewBoat.name=Boat
+entity.EntityNewBoatWithChest.name=Chest Boat
+item.wooden_armorstand.name=Armor Stand
+entity.EntityArmorStand.name=Armor Stand
 
-item.wooden_armorstand.name=woodenArmorStand
-item.oak_boat.name=oakBoat
-item.spruce_boat.name=spruceBoat
-item.jungle_boat.name=jungleBoat
-item.birch_boat.name=birchBoat
-
-item.oak_chest_boat.name=oakChestBoat
-item.spruce_chest_boat.name=spruceChestBoat
-item.jungle_chest_boat.name=jungleChestBoat
-item.birch_chest_boat.name=birchChestBoat
-
-tile.slime.name=slimeBlock
-
-tile.birch_trapdoor.name=birchtrapDoor
-tile.jungle_trapdoor.name=jungletrapDoor
-tile.spruce_trapdoor.name=sprucetrapDoor
-
-tile.stonebrickWall.name=stoneBrickWall
-tile.brickWall.name=erickWall
-tile.end_stone_bricks.name=endStoneBrick
-tile.endStoneBrickWall.name=endStoneBrickWall
-
-tile.grindstone.name=grindStone
-tile.stonecutter.name=stoneCutter
-
-tile.dirtPath.name=dirtPath
-tile.sweetBerryBush.name=sweetBerryBush
-entity.EntityNewBoat.name=newBoat
-entity.EntityNewBoatWithChest.name=boatWithChest
+tile.stonebrickWall.name=Stone Brick Wall
+tile.brickWall.name=Brick Wall
+tile.end_stone_bricks.name=End Stone Brick
+tile.endStoneBrickWall.name=End Stone Brick Wall
 
 tile.prismarine_block.rough.name=Prismarine
 tile.prismarine_block.bricks.name=Prismarine Bricks
 tile.prismarine_block.dark.name=Dark Prismarine
 item.prismarineShard.name=Prismarine Shard
 item.prismarineCrystals.name=Prismarine Crystal
+
+tile.planks.acacia.name=Acacia Planks
+tile.slab.acacia.name=Acacia Slab
+tile.stairs.acacia.name=Acacia Stairs
+tile.planks.dark_oak.name=Dark_Oak Planks
+tile.slab.dark_oak.name=Dark_Oak Slab
+tile.stairs.dark_oak.name=Dark_Oak Stairs
+tile.iron_chain.name=Iron Chain
+tile.copper_chain.name=Copper Chain
+tile.silver_chain.name=Silver Chain
+tile.ancient_chain.name=Ancient Chain
+tile.mithril_chain.name=Mithril Chain
+tile.adamantium_chain.name=Adamantium Chain
+
+tile.iron_lantern.name=Iron Lantern
+tile.soul_lantern.name=Soul Lantern
+tile.copper_lantern.name=Copper Lantern
+tile.silver_lantern.name=Silver Lantern
+tile.ancient_lantern.name=Ancient Lantern
+tile.mithril_lantern.name=Mithril Lantern
+tile.adamantium_lantern.name=Adamantium Lantern
+
+tile.log.oak_log.name=Oak Log 
+tile.log.stripped_oak_log.name=Stripped Oak Log 
+tile.log.oak_wood.name=Oak Wood 
+tile.log.stripped_oak_wood.name=Stripped Oak Wood 
+tile.log.birch_log.name=Birch Log 
+tile.log.stripped_birch_log.name=Stripped Birch Log 
+tile.log.birch_wood.name=Birch Wood 
+tile.log.stripped_birch_wood.name=Stripped Birch Wood 
+tile.log.jungle_log.name=Jungle Log 
+tile.log.stripped_jungle_log.name=Stripped Jungle Log 
+tile.log.jungle_wood.name=Jungle Wood 
+tile.log.stripped_jungle_wood.name=Stripped Jungle Wood 
+tile.log.spruce_log.name=Spruce Log 
+tile.log.stripped_spruce_log.name=Stripped Spruce Log 
+tile.log.spruce_wood.name=Spruce Wood 
+tile.log.stripped_spruce_wood.name=Stripped Spruce Wood 
+tile.log.acacia_log.name=Acacia Log 
+tile.log.stripped_acacia_log.name=Stripped Acacia Log 
+tile.log.acacia_wood.name=Acacia Wood 
+tile.log.stripped_acacia_wood.name=Stripped Acacia Wood 
+tile.log.dark_oak_log.name=Dark Oak Log 
+tile.log.stripped_dark_oak_log.name=Stripped Dark Oak Log 
+tile.log.dark_oak_wood.name=Dark Oak Wood 
+tile.log.stripped_dark_oak_wood.name=Stripped Dark Oak Wood 
+
+tile.boats.oak.name=Oak Boat
+tile.chest_boats.oak.name=Oak Chest Boat
+tile.boats.birch.name=Birch Boat
+tile.chest_boats.birch.name=Birch Chest Boat
+tile.boats.jungle.name=Jungle Boat
+tile.chest_boats.jungle.name=Jungle Chest Boat
+tile.boats.spruce.name=Spruce Boat
+tile.chest_boats.spruce.name=Spruce Chest Boat
+tile.boats.acacia.name=Acacia Boat
+tile.chest_boats.acacia.name=Acacia Chest Boat
+tile.boats.dark_oak.name=Dark_Oak Boat
+tile.chest_boats.dark_oak.name=Dark_Oak Chest Boat
+
+tile.workbench.flint.oak_log.name=Oak Log with Flint Tool Bench 
+tile.workbench.flint.stripped_oak_log.name=Stripped Oak Log with Flint Tool Bench 
+tile.workbench.flint.oak_wood.name=Oak Wood with Flint Tool Bench 
+tile.workbench.flint.stripped_oak_wood.name=Stripped Oak Wood with Flint Tool Bench 
+tile.workbench.flint.birch_log.name=Birch Log with Flint Tool Bench 
+tile.workbench.flint.stripped_birch_log.name=Stripped Birch Log with Flint Tool Bench 
+tile.workbench.flint.birch_wood.name=Birch Wood with Flint Tool Bench 
+tile.workbench.flint.stripped_birch_wood.name=Stripped Birch Wood with Flint Tool Bench 
+tile.workbench.flint.jungle_log.name=Jungle Log with Flint Tool Bench 
+tile.workbench.flint.stripped_jungle_log.name=Stripped Jungle Log with Flint Tool Bench 
+tile.workbench.flint.jungle_wood.name=Jungle Wood with Flint Tool Bench 
+tile.workbench.flint.stripped_jungle_wood.name=Stripped Jungle Wood with Flint Tool Bench 
+tile.workbench.flint.spruce_log.name=Spruce Log with Flint Tool Bench 
+tile.workbench.flint.stripped_spruce_log.name=Stripped Spruce Log with Flint Tool Bench 
+tile.workbench.flint.spruce_wood.name=Spruce Wood with Flint Tool Bench 
+tile.workbench.flint.stripped_spruce_wood.name=Stripped Spruce Wood with Flint Tool Bench 
+tile.workbench.flint.acacia_log.name=Acacia Log with Flint Tool Bench 
+tile.workbench.flint.stripped_acacia_log.name=Stripped Acacia Log with Flint Tool Bench 
+tile.workbench.flint.acacia_wood.name=Acacia Wood with Flint Tool Bench 
+tile.workbench.flint.stripped_acacia_wood.name=Stripped Acacia Wood with Flint Tool Bench 
+tile.workbench.flint.dark_oak_log.name=Dark Oak Log with Flint Tool Bench 
+tile.workbench.flint.stripped_dark_oak_log.name=Stripped Dark Oak Log with Flint Tool Bench 
+tile.workbench.flint.dark_oak_wood.name=Dark Oak Wood with Flint Tool Bench 
+tile.workbench.flint.stripped_dark_oak_wood.name=Stripped Dark Oak Wood with Flint Tool Bench 
+tile.workbench.obsidian.oak_log.name=Oak Log with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_oak_log.name=Stripped Oak Log with Obsidian Tool Bench 
+tile.workbench.obsidian.oak_wood.name=Oak Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_oak_wood.name=Stripped Oak Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.birch_log.name=Birch Log with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_birch_log.name=Stripped Birch Log with Obsidian Tool Bench 
+tile.workbench.obsidian.birch_wood.name=Birch Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_birch_wood.name=Stripped Birch Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.jungle_log.name=Jungle Log with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_jungle_log.name=Stripped Jungle Log with Obsidian Tool Bench 
+tile.workbench.obsidian.jungle_wood.name=Jungle Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_jungle_wood.name=Stripped Jungle Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.spruce_log.name=Spruce Log with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_spruce_log.name=Stripped Spruce Log with Obsidian Tool Bench 
+tile.workbench.obsidian.spruce_wood.name=Spruce Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_spruce_wood.name=Stripped Spruce Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.acacia_log.name=Acacia Log with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_acacia_log.name=Stripped Acacia Log with Obsidian Tool Bench 
+tile.workbench.obsidian.acacia_wood.name=Acacia Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_acacia_wood.name=Stripped Acacia Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.dark_oak_log.name=Dark Oak Log with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_dark_oak_log.name=Stripped Dark Oak Log with Obsidian Tool Bench 
+tile.workbench.obsidian.dark_oak_wood.name=Dark Oak Wood with Obsidian Tool Bench 
+tile.workbench.obsidian.stripped_dark_oak_wood.name=Stripped Dark Oak Wood with Obsidian Tool Bench 
+
+item.doors.oak.name=Oak Door
+tile.doors.oak.name=Oak Door
+item.doors.birch.name=Birch Door
+tile.doors.birch.name=Birch Door
+item.doors.jungle.name=Jungle Door
+tile.doors.jungle.name=Jungle Door
+item.doors.spruce.name=Spruce Door
+tile.doors.spruce.name=Spruce Door
+item.doors.acacia.name=Acacia Door
+tile.doors.acacia.name=Acacia Door
+item.doors.dark_oak.name=Dark Oak Door
+tile.doors.dark_oak.name=Dark Oak Door
+
+tile.trapdoors.oak.name=Oak Trapdoor
+tile.trapdoors.birch.name=Birch Trapdoor
+tile.trapdoors.jungle.name=Jungle Trapdoor
+tile.trapdoors.spruce.name=Spruce Trapdoor
+tile.trapdoors.acacia.name=Acacia Trapdoor
+tile.trapdoors.dark_oak.name=Dark Oak Trapdoor

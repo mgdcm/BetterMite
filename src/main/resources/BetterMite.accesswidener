@@ -4,6 +4,8 @@ accessible method net/minecraft/Block setLightValue (F)Lnet/minecraft/Block;
 accessible method net/minecraft/Block setResistance (F)Lnet/minecraft/Block;
 accessible method net/minecraft/Block setTextureName (Ljava/lang/String;)Lnet/minecraft/Block;
 accessible method net/minecraft/Block setStepSound (Lnet/minecraft/StepSound;)Lnet/minecraft/Block;
+accessible method net/minecraft/BlockFalling tryToFall (Lnet/minecraft/World;III)Z
+accessible field net/minecraft/Item itemRand Ljava/util/Random;
 
 accessible method net/minecraft/Damage getResponsibleEntity ()Lnet/minecraft/Entity;
 accessible method net/minecraft/DamageSource setFireAspect (Z)Lnet/minecraft/DamageSource;

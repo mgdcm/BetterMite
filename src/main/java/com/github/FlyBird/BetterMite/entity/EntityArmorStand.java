@@ -9,10 +9,10 @@ import net.minecraft.*;
 
 import java.util.List;
 
-import static com.github.FlyBird.BetterMite.BetterMiteStart.hashSetEntityArmourStand;
+import static com.github.FlyBird.BetterMite.BetterMiteStart.hashSetEntityArmorStand;
 import static com.github.FlyBird.BetterMite.config.BetterMiteConfigs.ArmourStandLoadChunk;
 
-public class EntityArmourStand extends EntityLiving {
+public class EntityArmorStand extends EntityLiving {
 
 
 
@@ -31,7 +31,7 @@ public class EntityArmourStand extends EntityLiving {
 	private Rotations leftLegRotation;
 	private Rotations rightLegRotation;
 
-	public EntityArmourStand(World world) {
+	public EntityArmorStand(World world) {
 		super(world);
 		headRotation = DEFAULT_HEAD_ROTATION;
 		bodyRotation = DEFAULT_BODY_ROTATION;
@@ -43,10 +43,10 @@ public class EntityArmourStand extends EntityLiving {
 		setSize(0.5F, 1.975F);
 	}
 
-	public EntityArmourStand(World world, double posX, double posY, double posZ) {
+	public EntityArmorStand(World world, double posX, double posY, double posZ) {
 		this(world);
 		setPosition(posX, posY, posZ);
-		hashSetEntityArmourStand.add(this);
+		hashSetEntityArmorStand.add(this);
 	}
 
 	@Override
@@ -306,7 +306,7 @@ public class EntityArmourStand extends EntityLiving {
 				theChunkProviderServer.unloadChunksIfNotNearSpawn(chunk_x, chunk_z);
 			}
 		}
-		hashSetEntityArmourStand.remove(this);
+		hashSetEntityArmorStand.remove(this);
 		super.setDead();
 	}
 	@Override
@@ -388,7 +388,7 @@ public class EntityArmourStand extends EntityLiving {
 	}
 
 	private void dropBlock() {
-		this.dropItemStack(new ItemStack(Items.armourStand), 0.0F);
+		this.dropItemStack(new ItemStack(Items.armorStand), 0.0F);
 		dropequipment();
 	}
 
