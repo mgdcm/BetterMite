@@ -18,9 +18,9 @@ public class BlockWoodWorkBench extends BlockWorkbench {
         for(int i=0;i<8;i++){
             ItemStack knife = new ItemStack((i<4)?Item.knifeFlint : Item.knifeObsidian);
             knife.setAsComponentOfCraftingProduct(new ItemStack(Log,1,i&3));
-            register.registerShapedRecipe(new ItemStack(this, 1, i),true, new Object[]{"K", "#", 'K', ((i&1)==0)?Item.knifeFlint:Item.knifeObsidian, '#', new ItemStack(Log,1,i)});
-            register.registerShapedRecipe(new ItemStack(this, 1, i),true, new Object[]{"FS", "s#", 'F', ((i&1)==0)?Item.flint:Block.obsidian, 'S', Item.silk, 's', Item.stick, '#', new ItemStack(Log,1,i)});
-            register.registerShapedRecipe(new ItemStack(this, 1, i),true, new Object[]{"FS", "s#", 'F', ((i&1)==0)?Item.flint:Block.obsidian, 'S', Item.sinew, 's', Item.stick, '#', new ItemStack(Log,1,i)});
+            register.registerShapedRecipe(new ItemStack(this, 1, i),true, new Object[]{"K", "#", 'K', ((i&1)==0)?Item.knifeFlint:Item.knifeObsidian, '#', new ItemStack(Log,1,i&3)});
+            register.registerShapedRecipe(new ItemStack(this, 1, i),true, new Object[]{"FS", "s#", 'F', ((i&1)==0)?Item.flint:Block.obsidian, 'S', Item.silk, 's', Item.stick, '#', new ItemStack(Log,1,i&3)});
+            register.registerShapedRecipe(new ItemStack(this, 1, i),true, new Object[]{"FS", "s#", 'F', ((i&1)==0)?Item.flint:Block.obsidian, 'S', Item.sinew, 's', Item.stick, '#', new ItemStack(Log,1,i&3)});
             register.registerShapedRecipe(knife, false, new Object[]{"#", '#', new ItemStack(this, 1, i)}).difficulty(25.0f);
         }
     }

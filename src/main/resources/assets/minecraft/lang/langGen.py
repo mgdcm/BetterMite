@@ -24,6 +24,7 @@ DEATH_FORMAT=lambda namespaceID:"death."+namespaceID
 class Woods:
     Types=["oak","birch","jungle","spruce","acacia","dark_oak"]
     ModTypes=Types[4:]
+    VanillaTypes=Types[:4]
     def getNames(type):
         return [type+"_log","stripped_"+type+"_log",type+"_wood","stripped_"+type+"_wood"]
     woodChineseNames={
@@ -74,7 +75,7 @@ printf(BLOCK_FORMAT("tall_grass"),"高草丛","Tall Grass")
 printf(BLOCK_FORMAT("large_fern"),"大型蕨","Large Fern")
 ENTER()
 printf(BLOCK_FORMAT("slime"),"史莱姆块","Slime Block")
-printf(BLOCK_FORMAT("dirtpath"),"土径","Slime Block")
+printf(BLOCK_FORMAT("dirtPath"),"土径","Dirt Path")
 printf(BLOCK_FORMAT("grindstone"),"砂轮","Grind Stone")
 printf(BLOCK_FORMAT("stonecutter"),"切石机","Stonecutter")
 ENTER()
@@ -117,6 +118,9 @@ for logType in Woods.ModTypes:
     printf(BLOCK_FORMAT("slab."+logType),slabChineseName,slabEnglishName)
     printf(BLOCK_FORMAT("stairs."+logType),stairsChineseName,stairsEnglishName)
 
+ENTER()
+
+
 #Chain Language Generator
 for chainType in ["iron","copper","silver","ancient","mithril","adamantium"]:
     chainName = chainType+"_"+"chain"
@@ -153,15 +157,27 @@ for logType in Woods.Types:
 
 ENTER()
 
-#Mod Boat And Chest Boat Language Generator
+#Mod Boat and Chest Boat Language Generator
 for logType in Woods.Types:
     woodChineseName = Woods.getChineseNameForType(logType)
     boatChineseName = woodChineseName+"船"
     chestBoatChineseName = woodChineseName+"运输船"
     boatEnglishName = (logType+" Boat").title()
     chestBoatEnglishName = (logType+" Chest Boat").title()
-    printf(BLOCK_FORMAT("boats."+logType),boatChineseName,boatEnglishName)
-    printf(BLOCK_FORMAT("chest_boats."+logType),chestBoatChineseName,chestBoatEnglishName)
+    printf(ITEM_FORMAT("boats."+logType),boatChineseName,boatEnglishName)
+    printf(ITEM_FORMAT("chest_boats."+logType),chestBoatChineseName,chestBoatEnglishName)
+
+ENTER()
+
+#Mod Fence and Fence Gate Language Generator
+for logType in Woods.Types:
+    woodChineseName = Woods.getChineseNameForType(logType)
+    fenceChineseName = woodChineseName+"栅栏"
+    fenceGateChineseName = woodChineseName+"栅栏门"
+    fenceEnglishName = (logType+" Fence").title()
+    fenceGateEnglishName = (logType+" Fence Gate").title()
+    printf(BLOCK_FORMAT("fences."+logType),fenceChineseName,fenceEnglishName)
+    printf(BLOCK_FORMAT("fence_gates."+logType),fenceGateChineseName,fenceGateEnglishName)
 
 ENTER()
 

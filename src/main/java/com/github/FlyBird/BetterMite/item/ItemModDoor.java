@@ -30,6 +30,7 @@ public class ItemModDoor extends ItemDoor {
     public void registerRecipeWithVanilla(RecipeRegistryEvent register, int i){
         register.registerShapedRecipe(new ItemStack(this, 1), true, new Object[]{"AA", "AA", "AA", Character.valueOf('A'), new ItemStack((Block.planks), 1, i)});
     }
+
     @Override
     public Block getBlock() {
         return DoorBlock;

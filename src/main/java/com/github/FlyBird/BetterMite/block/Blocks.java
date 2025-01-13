@@ -36,6 +36,12 @@ public class Blocks extends Block {
     public static final Block birchDoor=new BlockModDoor(getNextBlockID());
     public static final Block jungleDoor=new BlockModDoor(getNextBlockID());
     public static final Block spruceDoor=new BlockModDoor(getNextBlockID());
+    public static final BlockWoodFenceExtend spruceFence = (new BlockWoodFenceExtend(getNextBlockID(), 1));
+    public static final BlockWoodFenceExtend birchFence = (new BlockWoodFenceExtend(getNextBlockID(), 2));
+    public static final BlockWoodFenceExtend jungleFence = (new BlockWoodFenceExtend(getNextBlockID(), 3));
+    public static final BlockFenceGateExtend spruceFenceGate=new BlockFenceGateExtend(getNextBlockID(),1);
+    public static final BlockFenceGateExtend birchFenceGate=new BlockFenceGateExtend(getNextBlockID(),2);
+    public static final BlockFenceGateExtend jungleFenceGate=new BlockFenceGateExtend(getNextBlockID(),3);
 
     public static final Block ironLantern =new BlockLantern(getNextBlockID());
     public static final Block soulLantern =new BlockLantern(getNextBlockID());
@@ -150,24 +156,12 @@ public class Blocks extends Block {
         spruceWorkbench.registerRecipe(register);
         oakWorkbench.registerRecipe(register);
 
-        register.registerShapedRecipe(new ItemStack(ironChain,16), true, new Object[] { "A  ", "B  ", "A  ", Character.valueOf('A'), Item.getItem(Item.ironNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotIron.itemID) });
-        register.registerShapedRecipe(new ItemStack(ironChain,16), true, new Object[] { " A ", " B ", " A ", Character.valueOf('A'), Item.getItem(Item.ironNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotIron.itemID) });
-        register.registerShapedRecipe(new ItemStack(ironChain,16), true, new Object[] { "  A", "  B", "  A", Character.valueOf('A'), Item.getItem(Item.ironNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotIron.itemID) });
-        register.registerShapedRecipe(new ItemStack(adamantiumChain,16), true, new Object[] { "A  ", "B  ", "A  ", Character.valueOf('A'), Item.getItem(Item.adamantiumNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAdamantium.itemID) });
-        register.registerShapedRecipe(new ItemStack(adamantiumChain,16), true, new Object[] { " A ", " B ", " A ", Character.valueOf('A'), Item.getItem(Item.adamantiumNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAdamantium.itemID) });
-        register.registerShapedRecipe(new ItemStack(adamantiumChain,16), true, new Object[] { "  A", "  B", "  A", Character.valueOf('A'), Item.getItem(Item.adamantiumNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAdamantium.itemID) });
-        register.registerShapedRecipe(new ItemStack(ancientChain,16), true, new Object[] { "A  ", "B  ", "A  ", Character.valueOf('A'), Item.getItem(Item.ancientMetalNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAncientMetal.itemID) });
-        register.registerShapedRecipe(new ItemStack(ancientChain,16), true, new Object[] { " A ", " B ", " A ", Character.valueOf('A'), Item.getItem(Item.ancientMetalNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAncientMetal.itemID) });
-        register.registerShapedRecipe(new ItemStack(ancientChain,16), true, new Object[] { "  A", "  B", "  A", Character.valueOf('A'), Item.getItem(Item.ancientMetalNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAncientMetal.itemID) });
-        register.registerShapedRecipe(new ItemStack(silverChain,16), true, new Object[] { "A  ", "B  ", "A  ", Character.valueOf('A'), Item.getItem(Item.silverNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotSilver.itemID) });
-        register.registerShapedRecipe(new ItemStack(silverChain,16), true, new Object[] { " A ", " B ", " A ", Character.valueOf('A'), Item.getItem(Item.silverNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotSilver.itemID) });
-        register.registerShapedRecipe(new ItemStack(silverChain,16), true, new Object[] { "  A", "  B", "  A", Character.valueOf('A'), Item.getItem(Item.silverNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotSilver.itemID) });
-        register.registerShapedRecipe(new ItemStack(copperChain,16), true, new Object[] { "A  ", "B  ", "A  ", Character.valueOf('A'), Item.getItem(Item.copperNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotCopper.itemID) });
-        register.registerShapedRecipe(new ItemStack(copperChain,16), true, new Object[] { " A ", " B ", " A ", Character.valueOf('A'), Item.getItem(Item.copperNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotCopper.itemID) });
-        register.registerShapedRecipe(new ItemStack(copperChain,16), true, new Object[] { "  A", "  B", "  A", Character.valueOf('A'), Item.getItem(Item.copperNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotCopper.itemID) });
-        register.registerShapedRecipe(new ItemStack(mithrilChain,16), true, new Object[] { "A  ", "B  ", "A  ", Character.valueOf('A'), Item.getItem(Item.mithrilNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotMithril.itemID) });
-        register.registerShapedRecipe(new ItemStack(mithrilChain,16), true, new Object[] { " A ", " B ", " A ", Character.valueOf('A'), Item.getItem(Item.mithrilNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotMithril.itemID) });
-        register.registerShapedRecipe(new ItemStack(mithrilChain,16), true, new Object[] { "  A", "  B", "  A", Character.valueOf('A'), Item.getItem(Item.mithrilNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotMithril.itemID) });
+        register.registerShapedRecipe(new ItemStack(ironChain,16), true, new Object[] { "A", "B", "A", Character.valueOf('A'), Item.getItem(Item.ironNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotIron.itemID) });
+        register.registerShapedRecipe(new ItemStack(adamantiumChain,16), true, new Object[] { "A", "B", "A", Character.valueOf('A'), Item.getItem(Item.adamantiumNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAdamantium.itemID) });
+        register.registerShapedRecipe(new ItemStack(ancientChain,16), true, new Object[] { "A", "B", "A", Character.valueOf('A'), Item.getItem(Item.ancientMetalNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotAncientMetal.itemID) });
+        register.registerShapedRecipe(new ItemStack(silverChain,16), true, new Object[] { "A", "B", "A", Character.valueOf('A'), Item.getItem(Item.silverNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotSilver.itemID) });
+        register.registerShapedRecipe(new ItemStack(copperChain,16), true, new Object[] { "A", "B", "A", Character.valueOf('A'), Item.getItem(Item.copperNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotCopper.itemID) });
+        register.registerShapedRecipe(new ItemStack(mithrilChain,16), true, new Object[] { "A", "B", "A", Character.valueOf('A'), Item.getItem(Item.mithrilNugget.itemID),Character.valueOf('B'), Item.getItem(Item.ingotMithril.itemID) });
 
         register.registerShapedRecipe(new ItemStack(ironLantern,1), true, new Object[] { "AAA", "ABA", "AAA", Character.valueOf('A'), Item.getItem(Item.ironNugget.itemID),Character.valueOf('B'), Item.getItem(Block.torchWood) });
         register.registerShapedRecipe(new ItemStack(soulLantern,1), true, new Object[] { "AAA", "ABA", "AAA", Character.valueOf('A'), Item.getItem(Item.ironNugget.itemID),Character.valueOf('B'), Item.getItem(Blocks.soulTorch) });
@@ -210,27 +204,27 @@ public class Blocks extends Block {
         acacia.registerRecipes(register);
         darkOak.registerRecipes(register);
 
-        register.registerShapedRecipe(new ItemStack(stoneBrickWall,8), true, new Object[] { "   ", "AAA", "AAA", Character.valueOf('A'), Item.getItem(Block.stoneBrick) });
-        register.registerShapedRecipe(new ItemStack(stoneBrickWall,8), true, new Object[] { "AAA", "AAA", "   ", Character.valueOf('A'), Item.getItem(Block.stoneBrick) });
-        register.registerShapedRecipe(new ItemStack(BrickWall,8), true, new Object[] { "   ", "AAA", "AAA", Character.valueOf('A'), Item.getItem(Block.brick) });
-        register.registerShapedRecipe(new ItemStack(BrickWall,8), true, new Object[] { "AAA", "AAA", "   ", Character.valueOf('A'), Item.getItem(Block.brick) });
-        register.registerShapedRecipe(new ItemStack(endStoneBrickWall,8), true, new Object[] { "   ", "AAA", "AAA", Character.valueOf('A'), Item.getItem(endStoneBrick) });
-        register.registerShapedRecipe(new ItemStack(endStoneBrickWall,8), true, new Object[] { "AAA", "AAA", "   ", Character.valueOf('A'), Item.getItem(endStoneBrick) });
+        register.registerShapedRecipe(new ItemStack(stoneBrickWall,8), true, new Object[] {"AAA", "AAA", Character.valueOf('A'), Item.getItem(Block.stoneBrick) });
+        register.registerShapedRecipe(new ItemStack(BrickWall,8), true, new Object[] {"AAA", "AAA", Character.valueOf('A'), Item.getItem(Block.brick) });
+        register.registerShapedRecipe(new ItemStack(endStoneBrickWall,8), true, new Object[] {"AAA", "AAA", Character.valueOf('A'), Item.getItem(endStoneBrick) });
 
-        register.registerShapedRecipe(new ItemStack(endStoneBrick,4), true, new Object[] { "AA ", "AA ", "   ", Character.valueOf('A'), Item.getItem(Block.whiteStone) });
-        register.registerShapedRecipe(new ItemStack(endStoneBrick,4), true, new Object[] { " AA", " AA", "   ", Character.valueOf('A'), Item.getItem(Block.whiteStone) });
-        register.registerShapedRecipe(new ItemStack(endStoneBrick,4), true, new Object[] { "   ", "AA ", "AA ", Character.valueOf('A'), Item.getItem(Block.whiteStone) });
-        register.registerShapedRecipe(new ItemStack(endStoneBrick,4), true, new Object[] { "   ", " AA", " AA", Character.valueOf('A'), Item.getItem(Block.whiteStone) });
+        register.registerShapedRecipe(new ItemStack(endStoneBrick,4), true, new Object[] { "AA", "AA", Character.valueOf('A'), Item.getItem(Block.whiteStone) });
 
         for(int i=0;i<4;i++) {
             register.registerShapedRecipe(new ItemStack(grindStone, 1), true, new Object[]{"ABA", "C C", "   ", Character.valueOf('A'), Item.getItem(Item.stick.itemID), Character.valueOf('B'), Item.getItem(Block.stoneSingleSlab), Character.valueOf('C'), new ItemStack(Block.planks, 1, i)});
             register.registerShapedRecipe(new ItemStack(grindStone, 1), true, new Object[]{"   ", "ABA", "C C", Character.valueOf('A'), Item.getItem(Item.stick.itemID), Character.valueOf('B'), Item.getItem(Block.stoneSingleSlab), Character.valueOf('C'), new ItemStack(Block.planks, 1, i)});
         }
 
-        register.registerShapedRecipe(new ItemStack(stoneCutter, 1), true, new Object[] {" A ","BBB","   ",Character.valueOf('A'),new ItemStack((Item.ingotIron),1),Character.valueOf('B'),new ItemStack((Block.stone),1)});
-        register.registerShapedRecipe(new ItemStack(stoneCutter, 1), true, new Object[] {"   "," A ","BBB",Character.valueOf('A'),new ItemStack((Item.ingotIron),1),Character.valueOf('B'),new ItemStack((Block.stone),1)});
-
+        register.registerShapedRecipe(new ItemStack(stoneCutter, 1), true, new Object[] {" A ","BBB",Character.valueOf('A'),new ItemStack((Item.ingotIron),1),Character.valueOf('B'),new ItemStack((Block.stone),1)});
         register.registerShapedRecipe(new ItemStack(slimeBlock,1), true, new Object[] { "AAA", "AAA", "AAA", Character.valueOf('A'), new ItemStack(Item.slimeBall) });
+
+        for(BlockFenceGateExtend blockFenceGateExtend : new BlockFenceGateExtend[]{spruceFenceGate,birchFenceGate,jungleFenceGate}){
+            blockFenceGateExtend.registerRecipe(register);
+        }
+        for(BlockWoodFenceExtend blockWoodFenceExtend : new BlockWoodFenceExtend[]{spruceFence,birchFence,jungleFence}){
+            blockWoodFenceExtend.registerRecipe(register);
+        }
+        register.registerShapedRecipe(new ItemStack(Block.fence,3), true, new Object[] {"ABA","ABA", 'A', new ItemStack(Block.planks,1,0), 'B',Item.stick});
     }
     public static void furnaceRecipe() {
         FurnaceRecipes.smelting().addSmelting(sponge.blockID, new ItemStack(Item.itemsList[sponge.blockID],1,0));

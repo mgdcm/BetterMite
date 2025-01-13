@@ -253,7 +253,7 @@ public class BlockModLeaves extends BlockLeavesBase {
     }
 
     public int getBlockSubtypeUnchecked(int metadata) {
-        return metadata & 3;
+        return 0;
     }
 
     public Icon getIcon(int par1, int par2) {

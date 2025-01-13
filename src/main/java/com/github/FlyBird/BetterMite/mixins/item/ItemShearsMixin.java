@@ -16,9 +16,10 @@ public abstract class ItemShearsMixin extends ItemTool {
     }
     @Inject(method = "onItemRightClick",at= @At(value = "INVOKE", target = "Lnet/minecraft/BlockBreakInfo;dropBlockAsItself(Z)I"),locals = LocalCapture.CAPTURE_FAILSOFT,cancellable = true)
     public void bigGrassShearsDestroy(EntityPlayer player, float partial_tick, boolean ctrl_is_down, CallbackInfoReturnable<Boolean> cir, RaycastCollision rc, Block block, World world, int x, int y, int z, BlockBreakInfo info){
-        if(world.getBlock(x,y-1,z) instanceof BlockBigGrass&&(world.getBlockMetadata(x,y-1,z)&1)==1){
+        if(world.getBlock(x,y,z) instanceof BlockBigGrass){
+            if(world.getBlock(x,y-1,z) instanceof BlockBigGrass && (world.getBlockMetadata(x,y-1,z)&1)==1)world.setBlockToAir(x,y-1,z);
+            if(world.getBlock(x,y+1,z) instanceof BlockBigGrass && (world.getBlockMetadata(x,y+1,z)&1)==0)world.setBlockToAir(x,y+1,z);
             info.dropBlockAsItself(true);
-            world.setBlockToAir(x,y-1,z);
             world.playSoundAtBlock(x, y, z, "mob.sheep.shear", 1.0F, 1.0F);
             player.tryDamageHeldItem(DamageSource.generic, this.getToolDecayFromBreakingBlock(info));
             cir.setReturnValue(true);

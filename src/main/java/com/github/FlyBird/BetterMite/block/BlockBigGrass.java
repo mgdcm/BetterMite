@@ -121,7 +121,17 @@ public class BlockBigGrass extends BlockPlant {
         }
 
     }
+    @Override
+    public int dropBlockAsItself(BlockBreakInfo info) {
+        if (info.block != this) {
+            Minecraft.setErrorMessage("dropBlockAsItself: info.block!=this");
+        }
 
+        if (!info.block.canBeCarried()) {
+            Minecraft.setErrorMessage("dropBlockAsItself: " + this + " cannot be carried");
+        }
+        return this.dropBlockAsEntityItem(info, new ItemStack(Block.tallGrass,2,((info.getMetadata()&2)>>1)+1));
+    }
     public int dropBlockAsEntityItem(BlockBreakInfo info) {
         return !info.wasSelfDropped() &&!info.wasNotLegal() && info.wasHarvestedByPlayer()&& this.getItemSubtype(info.getMetadata()) <= 1 ? this.dropBlockAsEntityItem(info, Item.seeds.itemID, 0, 1, 0.32F) : 0;
     }

@@ -22,7 +22,7 @@ tile.tall_grass.name=Tall Grass
 tile.large_fern.name=Large Fern
 
 tile.slime.name=Slime Block
-tile.dirtpath.name=Slime Block
+tile.dirtPath.name=Dirt Path
 tile.grindstone.name=Grind Stone
 tile.stonecutter.name=Stonecutter
 
@@ -57,6 +57,7 @@ tile.stairs.acacia.name=Acacia Stairs
 tile.planks.dark_oak.name=Dark_Oak Planks
 tile.slab.dark_oak.name=Dark_Oak Slab
 tile.stairs.dark_oak.name=Dark_Oak Stairs
+
 tile.iron_chain.name=Iron Chain
 tile.copper_chain.name=Copper Chain
 tile.silver_chain.name=Silver Chain
@@ -97,18 +98,31 @@ tile.log.stripped_dark_oak_log.name=Stripped Dark Oak Log
 tile.log.dark_oak_wood.name=Dark Oak Wood 
 tile.log.stripped_dark_oak_wood.name=Stripped Dark Oak Wood 
 
-tile.boats.oak.name=Oak Boat
-tile.chest_boats.oak.name=Oak Chest Boat
-tile.boats.birch.name=Birch Boat
-tile.chest_boats.birch.name=Birch Chest Boat
-tile.boats.jungle.name=Jungle Boat
-tile.chest_boats.jungle.name=Jungle Chest Boat
-tile.boats.spruce.name=Spruce Boat
-tile.chest_boats.spruce.name=Spruce Chest Boat
-tile.boats.acacia.name=Acacia Boat
-tile.chest_boats.acacia.name=Acacia Chest Boat
-tile.boats.dark_oak.name=Dark_Oak Boat
-tile.chest_boats.dark_oak.name=Dark_Oak Chest Boat
+item.boats.oak.name=Oak Boat
+item.chest_boats.oak.name=Oak Chest Boat
+item.boats.birch.name=Birch Boat
+item.chest_boats.birch.name=Birch Chest Boat
+item.boats.jungle.name=Jungle Boat
+item.chest_boats.jungle.name=Jungle Chest Boat
+item.boats.spruce.name=Spruce Boat
+item.chest_boats.spruce.name=Spruce Chest Boat
+item.boats.acacia.name=Acacia Boat
+item.chest_boats.acacia.name=Acacia Chest Boat
+item.boats.dark_oak.name=Dark_Oak Boat
+item.chest_boats.dark_oak.name=Dark_Oak Chest Boat
+
+tile.fences.oak.name=Oak Fence
+tile.fence_gates.oak.name=Oak Fence Gate
+tile.fences.birch.name=Birch Fence
+tile.fence_gates.birch.name=Birch Fence Gate
+tile.fences.jungle.name=Jungle Fence
+tile.fence_gates.jungle.name=Jungle Fence Gate
+tile.fences.spruce.name=Spruce Fence
+tile.fence_gates.spruce.name=Spruce Fence Gate
+tile.fences.acacia.name=Acacia Fence
+tile.fence_gates.acacia.name=Acacia Fence Gate
+tile.fences.dark_oak.name=Dark_Oak Fence
+tile.fence_gates.dark_oak.name=Dark_Oak Fence Gate
 
 tile.workbench.flint.oak_log.name=Oak Log with Flint Tool Bench 
 tile.workbench.flint.stripped_oak_log.name=Stripped Oak Log with Flint Tool Bench 

@@ -22,7 +22,7 @@ tile.tall_grass.name=高草丛
 tile.large_fern.name=大型蕨
 
 tile.slime.name=史莱姆块
-tile.dirtpath.name=土径
+tile.dirtPath.name=土径
 tile.grindstone.name=砂轮
 tile.stonecutter.name=切石机
 
@@ -57,6 +57,7 @@ tile.stairs.acacia.name=金合欢木楼梯
 tile.planks.dark_oak.name=深色橡木板
 tile.slab.dark_oak.name=深色橡木台阶
 tile.stairs.dark_oak.name=深色橡木楼梯
+
 tile.iron_chain.name=铁锁链
 tile.copper_chain.name=铜锁链
 tile.silver_chain.name=银锁链
@@ -97,18 +98,31 @@ tile.log.stripped_dark_oak_log.name=去皮深色橡树原木
 tile.log.dark_oak_wood.name=深色橡木
 tile.log.stripped_dark_oak_wood.name=去皮深色橡木
 
-tile.boats.oak.name=橡木船
-tile.chest_boats.oak.name=橡木运输船
-tile.boats.birch.name=桦木船
-tile.chest_boats.birch.name=桦木运输船
-tile.boats.jungle.name=从林木船
-tile.chest_boats.jungle.name=从林木运输船
-tile.boats.spruce.name=云杉木船
-tile.chest_boats.spruce.name=云杉木运输船
-tile.boats.acacia.name=金合欢木船
-tile.chest_boats.acacia.name=金合欢木运输船
-tile.boats.dark_oak.name=深色橡木船
-tile.chest_boats.dark_oak.name=深色橡木运输船
+item.boats.oak.name=橡木船
+item.chest_boats.oak.name=橡木运输船
+item.boats.birch.name=桦木船
+item.chest_boats.birch.name=桦木运输船
+item.boats.jungle.name=从林木船
+item.chest_boats.jungle.name=从林木运输船
+item.boats.spruce.name=云杉木船
+item.chest_boats.spruce.name=云杉木运输船
+item.boats.acacia.name=金合欢木船
+item.chest_boats.acacia.name=金合欢木运输船
+item.boats.dark_oak.name=深色橡木船
+item.chest_boats.dark_oak.name=深色橡木运输船
+
+tile.fences.oak.name=橡木栅栏
+tile.fence_gates.oak.name=橡木栅栏门
+tile.fences.birch.name=桦木栅栏
+tile.fence_gates.birch.name=桦木栅栏门
+tile.fences.jungle.name=从林木栅栏
+tile.fence_gates.jungle.name=从林木栅栏门
+tile.fences.spruce.name=云杉木栅栏
+tile.fence_gates.spruce.name=云杉木栅栏门
+tile.fences.acacia.name=金合欢木栅栏
+tile.fence_gates.acacia.name=金合欢木栅栏门
+tile.fences.dark_oak.name=深色橡木栅栏
+tile.fence_gates.dark_oak.name=深色橡木栅栏门
 
 tile.workbench.flint.oak_log.name=橡树原木燧石工具台
 tile.workbench.flint.stripped_oak_log.name=去皮橡树原木燧石工具台
